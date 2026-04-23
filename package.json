@@ -1,6 +1,6 @@
 {
   "name": "@balena/update-bundle",
-  "version": "0.5.2",
+  "version": "0.5.2", // trigger sync
   "description": "Balena Update Bundle SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
