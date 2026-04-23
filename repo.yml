@@ -1,1 +1,5 @@
 type: 'node'
+balena_slugs: 'balena-io-modules/balena-update-bundle'
+test: true
+lint: true
+docusaurus_website: true
