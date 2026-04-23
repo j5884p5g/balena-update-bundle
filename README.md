@@ -63,3 +63,4 @@ await pipeline(bundle.archive, target);
 This project is distributed under the Apache 2.0 license.
 
 Copyright (c) 2024 Balena Ltd.
+<!-- dummy change -->
