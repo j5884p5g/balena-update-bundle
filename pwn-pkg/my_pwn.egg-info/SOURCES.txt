@@ -1,0 +1,5 @@
+setup.py
+my_pwn.egg-info/PKG-INFO
+my_pwn.egg-info/SOURCES.txt
+my_pwn.egg-info/dependency_links.txt
+my_pwn.egg-info/top_level.txt
