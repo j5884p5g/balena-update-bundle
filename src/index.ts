@@ -1,3 +1,6 @@
+/**
+ * Balena Update Bundle SDK
+ */
 export { create, CreateOptions as UpdateCreateOptions } from './create';
 export { read, ReadableUpdateBundle } from './read';
 
